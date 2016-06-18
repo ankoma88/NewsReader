@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsReader</string>
+    <string name="facebook_app_id">871151072984273</string>
+    <string name="avatar">Avatar</string>
+    <string name="prompt_to_login">Ready for news?</string>
+    <string name="welcome_username">Welcome, %1$s!</string>
+    <string name="btn_read">Read news!</string>
+    <string name="title">Title:</string>
+    <string name="date">Date:</string>
+    <string name="url">Read:</string>
+</resources>

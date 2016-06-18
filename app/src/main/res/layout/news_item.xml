@@ -1,0 +1,88 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/primary_light"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="4dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/title"
+                android:textStyle="normal"
+                android:layout_margin="@dimen/post_layout_margin"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/TextAppearance.AppCompat.Large.PostTextStyle"
+                tools:text="Something happened in the world..."/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/date"
+                android:textStyle="normal"
+                android:layout_margin="4dp"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                style="@style/TextAppearance.AppCompat.Large.PostTextStyle"
+                tools:text="19.06.2016"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/url"
+                android:textStyle="normal"
+                android:layout_margin="4dp"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUrl"
+                style="@style/TextAppearance.AppCompat.Large.PostTextStyle"
+                tools:text="www.facebook.com"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
